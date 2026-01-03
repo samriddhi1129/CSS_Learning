@@ -1,0 +1,44 @@
+/* named color */
+h1{
+    color: red;
+}
+/* RGB color */
+h2{
+    color: rgb(0, 255, 0);
+}
+/* rgba  */
+h3{
+    color: rgba(0, 255, 0, 0.3);
+}
+/* hsl */
+h4{
+    color: hsl(300, 100%, 50%);
+}
+/* hsla */
+h5{
+    color: hsla(240, 100%, 50%, 0.5);
+}
+/* hexadecimal color  6 bit */
+h6{
+    color: #FFA500;
+}
+/* hexadecimal color with alpha channel   8 bit*/
+p{
+    color: #9613e180;
+}
+
+/* background color */
+body{
+    background-color: rgb(254, 240, 221);
+}
+
+/* background image */
+section div{
+    
+    background-image: url('./AKSV-Rangers_final_logo.jpg');
+    background-size: cover
+}
+
+section>div>p{
+    color: white;
+}

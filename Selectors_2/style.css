@@ -1,0 +1,60 @@
+/* element selectors */
+
+h1{
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color: burlywood;
+    font-family: Arial, sans-serif;
+}
+
+/*  class selectors */
+
+.first{
+    color: yellow;
+    background-color: black;
+
+}
+
+/* id selector */
+#second{
+    color: pink;
+}
+
+#group{
+    color: white;
+}
+
+/* universal selectors */
+*{
+    background-color: aquamarine;
+}
+
+
+/* group selectors */
+
+h2, ol, #group{
+    background-color: blue;
+}
+
+
+/* Attribute selectors */
+
+li[contenteditable="true"]{
+    background-color: green;
+    color: red;
+}
+
+/* Descendant selector  andar ke andar*/    
+section p{
+    background-color: violet;
+    color: white;
+}
+
+/* Child selector */
+section > p{
+    background-color: red;
+    color: white;
+}
